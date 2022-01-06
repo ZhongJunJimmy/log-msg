@@ -59,3 +59,6 @@ Print the difference format message by define difference log lavel. The function
 Creating log file and appending text into log file. It will check the configuration `writeLog` to decide it executeing or not.
 
 -  `msg` (type: String) The message that you would like to write in log file
+
+# Licence
+[MIT](LICENCE)
