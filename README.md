@@ -61,4 +61,4 @@ Creating log file and appending text into log file. It will check the configurat
 -  `msg` (type: String) The message that you would like to write in log file
 
 # Licence
-[MIT](LICENCE)
+[MIT](LICENSE)
