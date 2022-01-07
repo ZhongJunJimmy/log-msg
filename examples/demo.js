@@ -1,13 +1,13 @@
 const logMsg = require('../index');
 
-const logMsg = logMsg({
+const logMsgObject = logMsg({
     DEBUG_MODE: true,
     INFO_MODE: true,
     WARN_MODE: true,
     ERROR_MODE: true
-})
+});
 
-logMsg.log("DEBUG", "test debug message");
-logMsg.log("INFO", "test info message");
-logMsg.log("WARN", "test warn message");
-logMsg.log("ERROR", "test error message");
+logMsgObject.log("DEBUG", "test debug message");
+logMsgObject.log("INFO", "test info message");
+logMsgObject.log("WARN", "test warn message");
+logMsgObject.log("ERROR", "test error message");

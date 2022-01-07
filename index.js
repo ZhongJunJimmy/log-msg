@@ -1,1 +1,1 @@
-module.exports = require('./lib/logMessage');
+module.exports = require('./lib/logMsg');
