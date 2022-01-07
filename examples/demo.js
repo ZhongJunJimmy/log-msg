@@ -1,6 +1,6 @@
-const logMessage = require('../index');
+const logMsg = require('../index');
 
-const logMsg = logMessage({
+const logMsg = logMsg({
     DEBUG_MODE: true,
     INFO_MODE: true,
     WARN_MODE: true,

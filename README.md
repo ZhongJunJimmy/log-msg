@@ -1,13 +1,13 @@
-# logMessage
+# logMsg
 
 Package for Log message util for NodeJS.
 
 # Usage
 
 ```js
-const logMessage = require('logMessage');
+const logMsg = require('logMsg');
 
-const logMsg = logMessage({
+const logMsg = logMsg({
     DEBUG_MODE: true,
     INFO_MODE: true,
     WARN_MODE: true,
@@ -22,12 +22,12 @@ logMsg.log("ERROR", "test error message");
 
 # API Description
 
-## LogMessage object
+## logMsg object
 
-Creating LogMessage instance with specified configuration
+Creating logMsg instance with specified configuration
 
 ```js
-const logMsg = logMessage({
+const logMsg = logMsg({
     writeLog: false,
     logPath: './log',
     prefixName: 'log_',
@@ -48,14 +48,14 @@ Configuration description
 - `WARN_MODE` (type: Bool): If set true, print the warn msg, default value is false
 - `ERROR_MODE` (type: Bool): If set true, print the error msg, default value is false
 
-## LogMessage.log(logType, logMessage)
+## logMsg.log(logType, logMsg)
 
 Print the difference format message by define difference log lavel. The function will check the configuration (include `DEBUG_MODE`, `INFO_MODE`, `WARN_MODE` and `ERROR_MODE` ) to decide message format.
 
 - `logType` (type: String) The log's type: DEBUG, INFO, WARN, ERROR
-- `logMessage` (type String) The message that you would like to print
+- `logMsg` (type String) The message that you would like to print
 
-## LogMessage.writeLogFile(msg)
+## logMsg.writeLogFile(msg)
 Creating log file and appending text into log file. It will check the configuration `writeLog` to decide it executeing or not.
 
 -  `msg` (type: String) The message that you would like to write in log file

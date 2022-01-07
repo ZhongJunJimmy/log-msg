@@ -1,5 +1,5 @@
 {
-  "name": "logmessage",
+  "name": "logMsg",
   "version": "1.0.2",
   "description": "A NodsJS package for log msg",
   "main": "index.js",
