@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZhongJunJimmy/logMessage.git"
+    "url": "git+https://github.com/ZhongJunJimmy/log-msg.git"
   },
   "keywords": [
     "log"
@@ -16,9 +16,9 @@
   "author": "ZJ.Jimmy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ZhongJunJimmy/logMessage/issues"
+    "url": "https://github.com/ZhongJunJimmy/log-msg/issues"
   },
-  "homepage": "https://github.com/ZhongJunJimmy/logMessage#readme",
+  "homepage": "https://github.com/ZhongJunJimmy/log-msg#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
     "moment": "^2.29.1"
