@@ -1,4 +1,6 @@
 # logMsg
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
 
 Package for Log message util for NodeJS.
 
@@ -68,3 +70,8 @@ Creating log file and appending text into log file. It will check the configurat
 
 # Licence
 [MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/log-msg.svg
+[npm-url]: https://www.npmjs.com/package/log-msg
+[downloads-image]: https://img.shields.io/npm/dm/log-msg.svg
+[downloads-url]: https://www.npmjs.com/package/log-msg
