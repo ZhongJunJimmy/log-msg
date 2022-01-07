@@ -2,6 +2,12 @@
 
 Package for Log message util for NodeJS.
 
+# Installation
+
+```
+$ npm i log-msg
+```
+
 # Usage
 
 ```js
