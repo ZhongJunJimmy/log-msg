@@ -19,7 +19,9 @@ jobs:
         with:
           node-version: '14'
       - name: npm install
-        run: npm install
+        run: |
+          npm install -save
+          npm install -save-dev
       - name: npm test
         run: npm test
      
