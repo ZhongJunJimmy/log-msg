@@ -1,6 +1,7 @@
 # logMsg
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FZhongJunJimmy%2Flog-msg%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/ZhongJunJimmy/log-msg/goto?ref=main)
 
 Package for Log message util for NodeJS.
 
