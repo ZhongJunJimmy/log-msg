@@ -2,7 +2,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![license](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
-[![CI](https://github.com/ZhongJunJimmy/log-msg/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ZhongJunJimmy/log-msg/actions/workflows/test.yml)
+[![CI](https://github.com/ZhongJunJimmy/log-msg/actions/workflows/test.yml/badge.svg?branch=main&event=push)](https://github.com/ZhongJunJimmy/log-msg/actions/workflows/test.yml)
 
 Package for Log message util for NodeJS.
 
