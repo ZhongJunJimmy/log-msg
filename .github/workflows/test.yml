@@ -23,6 +23,20 @@ jobs:
           npm install -save-dev
       - name: npm test
         run: npm test
+  test_on_node12:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - name: npm install
+        run: |
+          npm install -save
+          npm install -save-dev
+      - name: npm test
+        run: npm test
   test_on_node10:
     runs-on: ubuntu-latest
     steps:
@@ -31,20 +45,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '10'
-      - name: npm install
-        run: |
-          npm install -save
-          npm install -save-dev
-      - name: npm test
-        run: npm test
-  test_on_node8:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '8'
       - name: npm install
         run: |
           npm install -save
